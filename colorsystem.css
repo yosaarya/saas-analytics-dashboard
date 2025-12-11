@@ -1,0 +1,28 @@
+:root {
+  /* Primary Colors */
+  --primary: #6366f1;      /* Indigo */
+  --primary-dark: #4f46e5;
+  --primary-light: #a5b4fc;
+  
+  /* Background & Surface */
+  --bg-primary: #f8fafc;   /* Light gray */
+  --bg-card: #ffffff;      /* White */
+  --bg-sidebar: #1e293b;   /* Dark blue/gray */
+  
+  /* Text Colors */
+  --text-primary: #1e293b;  /* Dark */
+  --text-secondary: #64748b;/* Gray */
+  --text-light: #f8fafc;    /* Light */
+  
+  /* Semantic Colors */
+  --success: #10b981;      /* Green */
+  --warning: #f59e0b;      /* Amber */
+  --error: #ef4444;        /* Red */
+  --info: #3b82f6;         /* Blue */
+  
+  /* Chart Colors */
+  --chart-1: #8b5cf6;      /* Purple */
+  --chart-2: #10b981;      /* Green */
+  --chart-3: #f59e0b;      /* Yellow */
+  --chart-4: #ef4444;      /* Red */
+}

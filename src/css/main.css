@@ -86,3 +86,23 @@ body {
 .shadow-sm { box-shadow: var(--shadow-sm); }
 .shadow-md { box-shadow: var(--shadow-md); }
 .shadow-lg { box-shadow: var(--shadow-lg); }
+/* COPY-PASTE SEMUA KODE CSS DARI SEMUA FILE:
+1. variables.css
+2. animations.css  
+3. navbar.css
+4. sidebar.css
+5. cards.css
+6. charts.css
+7. grid.css
+8. responsive.css
+*/
+
+/* Atau gunakan cara ini: */
+@import url('utils/variables.css');
+@import url('utils/animations.css');
+@import url('components/navbar.css');
+@import url('components/sidebar.css');
+@import url('components/cards.css');
+@import url('components/charts.css');
+@import url('layouts/grid.css');
+@import url('layouts/responsive.css');

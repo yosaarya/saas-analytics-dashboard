@@ -1,0 +1,43 @@
+/* Responsive Utilities */
+@media (max-width: 640px) {
+    .hidden-sm {
+        display: none !important;
+    }
+    
+    .main-content {
+        padding: var(--space-4);
+    }
+    
+    .metric-card, .chart-card, .activity-card, .products-card {
+        padding: var(--space-4);
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .hidden-md {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1025px) {
+    .hidden-lg {
+        display: none !important;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .navbar, .sidebar, .btn, .view-all, .chart-actions {
+        display: none !important;
+    }
+    
+    .main-content {
+        margin-left: 0;
+        padding: 0;
+    }
+    
+    .metric-card, .chart-card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}

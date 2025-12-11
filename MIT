@@ -1,0 +1,23 @@
+
+---
+
+## **🎨 STEP 2: KODE UTAMA**
+
+### **1. package.json (opsional, untuk tooling):**
+```json
+{
+  "name": "saas-analytics-dashboard",
+  "version": "1.0.0",
+  "description": "Modern analytics dashboard",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "build": "echo 'Build step'",
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "author": "Yosa",
+  "license": "MIT"
+}

@@ -19,4 +19,4 @@ Modern analytics dashboard built with HTML5, CSS3, and JavaScript.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/saas-analytics-dashboard.git
+git clone https://github.com/yosaarya/saas-analytics-dashboard.git

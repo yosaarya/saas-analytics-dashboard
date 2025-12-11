@@ -1,0 +1,114 @@
+/* Card Styles */
+.metric-card {
+    background: var(--neutral-50);
+    border: 1px solid var(--neutral-200);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-200);
+}
+
+.metric-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: var(--space-4);
+}
+
+.metric-header h3 {
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--neutral-600);
+    margin: 0;
+}
+
+.trend {
+    font-size: var(--text-xs);
+    font-weight: 600;
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius-full);
+}
+
+.trend.positive {
+    background: rgba(16, 185, 129, 0.1);
+    color: var(--success);
+}
+
+.trend.negative {
+    background: rgba(239, 68, 68, 0.1);
+    color: var(--error);
+}
+
+.metric-value {
+    font-size: var(--text-3xl);
+    font-weight: 700;
+    color: var(--neutral-800);
+    margin-bottom: var(--space-1);
+    line-height: 1;
+}
+
+.metric-subtitle {
+    font-size: var(--text-sm);
+    color: var(--neutral-500);
+}
+
+.metric-icon {
+    position: absolute;
+    bottom: var(--space-4);
+    right: var(--space-4);
+    width: 40px;
+    height: 40px;
+    background: var(--primary-50);
+    border-radius: var(--radius-full);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-500);
+}
+
+.chart-card, .activity-card, .products-card {
+    background: var(--neutral-50);
+    border: 1px solid var(--neutral-200);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-6);
+}
+
+.card-header h3 {
+    font-size: var(--text-lg);
+    font-weight: 600;
+    color: var(--neutral-800);
+    margin: 0;
+}
+
+.view-all {
+    font-size: var(--text-sm);
+    color: var(--primary-500);
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+    transition: all 0.2s ease;
+}
+
+.view-all:hover {
+    color: var(--primary-600);
+}
+
+.view-all i {
+    font-size: var(--text-xs);
+}

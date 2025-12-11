@@ -1,0 +1,61 @@
+/* Chart Styles */
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-6);
+}
+
+.chart-header h3 {
+    font-size: var(--text-lg);
+    font-weight: 600;
+    color: var(--neutral-800);
+    margin: 0;
+}
+
+.chart-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.chart-filter {
+    padding: var(--space-2) var(--space-3);
+    border: 1px solid var(--neutral-300);
+    border-radius: var(--radius-md);
+    background: var(--neutral-50);
+    color: var(--neutral-700);
+    font-size: var(--text-sm);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.chart-filter:focus {
+    outline: none;
+    border-color: var(--primary-500);
+}
+
+.btn-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--neutral-300);
+    background: var(--neutral-50);
+    color: var(--neutral-600);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-icon:hover {
+    background: var(--neutral-100);
+    border-color: var(--neutral-400);
+}
+
+.chart-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
